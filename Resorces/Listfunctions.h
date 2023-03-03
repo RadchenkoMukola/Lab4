@@ -24,6 +24,31 @@ Node<T>* Head(int n)
     }
     return p;
 }
+
+template<typename T>
+void Npush_back(struct Node<T>** head_ref, T new_data)
+{
+    struct Node<T>* new_node
+        = (struct Node<T>*)malloc(sizeof(struct Node<T>));
+
+    new_node->data = new_data;
+    new_node->next = (*head_ref);
+
+    (*head_ref) = new_node;
+}
+
+template<typename T>
+void Npush_backv(struct Nodev<T>** head_ref, vector<T> new_data)
+{
+    struct Nodev<T>* new_node
+        = (struct Nodev<T>*)malloc(sizeof(struct Nodev<T>));
+
+    new_node->data = new_data;
+    new_node->next = (*head_ref);
+
+    (*head_ref) = new_node;
+}
+
 template<typename T>
 Nodev<T>* Headv(int n)
 {
@@ -59,6 +84,11 @@ Nodef* Headf(int n);
 Nodef* reversef(Nodef* list);
 
 void printflist(Nodef* A);
+
+void Npush_backf(struct Nodef** head_ref, Figure* new_data);
+
+
+
 
 template<typename T>
 void printvlist(Nodev<T>* root)
