@@ -22,7 +22,7 @@ void printflist(Nodef* A)
     Nodef* B = A;
     while (B)
     {
-        cout << "Figure ¹" << counter << endl;
+        cout << "Figure â„–" << counter << endl;
         cout << "\nArea: ";
         a = (B->data)->calc_area();
         cout << a << endl;
@@ -57,7 +57,7 @@ Nodef* Headf(int n)
     {
 
         cout << "*======================*" << endl;
-        cout << "*l Ñhoose your figure l*" << endl;
+        cout << "*l Ð¡hoose your figure l*" << endl;
         cout << "*======================*" << endl;
         cout << "*l 1.Triangle         l*" << endl;
         cout << "*l 2.Quadrangle       l*" << endl;
@@ -124,4 +124,14 @@ Nodef* Headf(int n)
         q = p;
     }
     return p;
+}
+void Npush_backf(struct Nodef** head_ref, Figure* new_data)
+{
+    struct Nodef* new_node
+        = (struct Nodef*)malloc(sizeof(struct Nodef));
+
+    new_node->data = new_data;
+    new_node->next = (*head_ref);
+
+    (*head_ref) = new_node;
 }
