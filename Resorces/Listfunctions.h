@@ -40,9 +40,8 @@ void Npush_back(struct Node<T>** head_ref, T new_data)
 template<typename T>
 void Npush_backv(struct Nodev<T>** head_ref, vector<T> new_data)
 {
-    struct Nodev<T>* new_node
-        = (struct Nodev<T>*)malloc(sizeof(struct Nodev<T>));
-
+    
+    Nodev<T>* new_node = new Nodev<T>;
     new_node->data = new_data;
     new_node->next = (*head_ref);
 
