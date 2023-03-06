@@ -1,30 +1,30 @@
 #include <string.h>
 #include "pch.h"
-#include "../ŒŒœ À‡·‡1/Figure.h"
-#include "../ŒŒœ À‡·‡1/Figurefunctions.h"
-#include "../ŒŒœ À‡·‡1/Figurefunctions.cpp"
-#include "../ŒŒœ À‡·‡1/Parallelogram.h"
-#include "../ŒŒœ À‡·‡1/Parallelogram.cpp"
-#include "../ŒŒœ À‡·‡1/Triangle.h"
-#include "../ŒŒœ À‡·‡1/Triangle.cpp"
-#include "../ŒŒœ À‡·‡1/Additionalfunc1.h"
-#include "../ŒŒœ À‡·‡1/Additionalfunc1.cpp"
-#include "../ŒŒœ À‡·‡1/Additionalfunc2.h"
-#include "../ŒŒœ À‡·‡1/Additionalfunc2.cpp"
-#include "../ŒŒœ À‡·‡1/Pkutnuk.h"
-#include "../ŒŒœ À‡·‡1/Pkutnuk.cpp"
-#include "../ŒŒœ À‡·‡1/Circle.h"
-#include "../ŒŒœ À‡·‡1/Circle.cpp"
-#include "../ŒŒœ À‡·‡1/Vectorfunctions.h"
-#include "../ŒŒœ À‡·‡1/Quicksort.h"
-#include "../ŒŒœ À‡·‡1/Quicksort.cpp"
-#include "../ŒŒœ À‡·‡1/List.h"
-#include "../ŒŒœ À‡·‡1/Mergesort.h"
-#include "../ŒŒœ À‡·‡1/Mergesort.cpp"
-#include "../ŒŒœ À‡·‡1/Insertionsort.h"
-#include "../ŒŒœ À‡·‡1/Insertionsort.cpp"
-#include "../ŒŒœ À‡·‡1/Listfunctions.h"
-#include "../ŒŒœ À‡·‡1/Listfunctions.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Figure.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Figurefunctions.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Figurefunctions.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Parallelogram.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Parallelogram.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Triangle.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Triangle.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Additionalfunc1.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Additionalfunc1.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Additionalfunc2.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Additionalfunc2.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Pkutnuk.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Pkutnuk.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Circle.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Circle.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Vectorfunctions.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Quicksort.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Quicksort.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/List.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Mergesort.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Mergesort.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Insertionsort.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Insertionsort.cpp"
+#include "../–û–û–ü –õ–∞–±–∞1/Listfunctions.h"
+#include "../–û–û–ü –õ–∞–±–∞1/Listfunctions.cpp"
 TEST(Parallelogramtest, TestName) {
 	Parallelogram x (0,5,5,5,5,0,0,0);
   double s = x.calc_area();
@@ -42,7 +42,7 @@ TEST(Parallelogramtest, TestName) {
   EXPECT_EQ(p, 20);
   EXPECT_TRUE(true);
 
-  string y = "œˇÏÓÍÛÚÌËÍ";
+  string y = "–ü—Ä—è–º–æ–∫—É—Ç–Ω–∏–∫";
   ASSERT_EQ(t.size(), y.size());
 
   vector<double> td;
@@ -54,7 +54,7 @@ TEST(Parallelogramtest, TestName) {
 	  EXPECT_EQ(sp[i], td[i]);
   }
 
-  string op = "ŒÔÛÍÎËÈ";
+  string op = "–û–ø—É–∫–ª–∏–π";
   ASSERT_EQ(v.size(), op.size());
 }
 
@@ -75,7 +75,7 @@ TEST(Triangletest, TestName) {
 	EXPECT_EQ(p, 25);
 	EXPECT_TRUE(true);
 
-	string y = "–≥ÁÌÓÒÚÓÓÌ≥È";
+	string y = "–†—ñ–∑–Ω–æ—Å—Ç–æ—Ä–æ–Ω—ñ–π";
 	
 	ASSERT_EQ(t.size(), y.size());
 	for (int i = 0; i < sp.size(); i++)
@@ -92,7 +92,7 @@ TEST(Triangletest, TestName) {
 		EXPECT_EQ(sp[i], td[i]);
 	}
 
-	string op = "ŒÔÛÍÎËÈ";
+	string op = "–û–ø—É–∫–ª–∏–π";
 	ASSERT_EQ(v.size(), op.size());
 }
 
@@ -113,7 +113,7 @@ TEST(Pentagontest, TestName) {
 	EXPECT_EQ(p, 18);
 	EXPECT_TRUE(true);
 
-	string y = "œ'ˇÚËÍÛÚÌËÍ";
+	string y = "–ü'—è—Ç–∏–∫—É—Ç–Ω–∏–∫";
 	ASSERT_EQ(t.size(), y.size());
 
 	vector<double> td;
@@ -125,7 +125,7 @@ TEST(Pentagontest, TestName) {
 		EXPECT_EQ(sp[i], td[i]);
 	}
 
-	string op = "ŒÔÛÍÎËÈ";
+	string op = "–û–ø—É–∫–ª–∏–π";
 	ASSERT_EQ(v.size(), op.size());
 }
 TEST(Circletest, TestName) {
@@ -145,7 +145,7 @@ TEST(Circletest, TestName) {
 	EXPECT_EQ(p, 31);
 	EXPECT_TRUE(true);
 
-	string y = " ÓÎÓ";
+	string y = "–ö–æ–ª–æ";
 	ASSERT_EQ(t.size(), y.size());
 
 	vector<double> td;
@@ -157,7 +157,7 @@ TEST(Circletest, TestName) {
 		EXPECT_EQ(sp[i], td[i]);
 	}
 
-	string op = "ŒÔÛÍÎËÈ";
+	string op = "–û–ø—É–∫–ª–∏–π";
 	ASSERT_EQ(v.size(), op.size());
 }
 TEST(Vectortest1, TestName) {
@@ -297,7 +297,7 @@ TEST(Reversetest2, TestName) {
 
 }
 
-/*TEST(Reversetest3, TestName) {
+TEST(Reversetest3, TestName) {
 
 	struct Nodev<int>* head = NULL;
 
@@ -309,31 +309,109 @@ TEST(Reversetest2, TestName) {
 	d.push_back(2);
 
 	Npush_backv(&head, a);
-	Npush_backv(&head, d);
-	Npush_backv(&head, c);
 	Npush_backv(&head, b);
-
+	Npush_backv(&head, c);
+	Npush_backv(&head, d);
 	struct Nodev<int>* rev = reversev(head);
+
 
 	struct Nodev<int>* ans = NULL;
 
-	Npush_backf(&, b);
-	Npush_backf(&head, c);
-	Npush_backf(&head, d);
-	Npush_backf(&head, a);
+	Npush_backv(&ans, d);
+	Npush_backv(&ans, c);
+	Npush_backv(&ans, b);
+	Npush_backv(&ans, a);
+
 
 	bool bob = true;
 
 	while (rev != NULL && ans != NULL) {
+		vector<int> ch1 = rev->data;
+		vector<int> ch2 = ans->data;
+		for (int i = 0; i <a.size(); i++)
+		{
+			if(ch1[i] != ch2[i]) bob = false;
+		}
 		
-			bob = false;
-		head = head->next;
+		rev = rev->next;
 		ans = ans->next;
 	}
 
 	EXPECT_EQ(bob, 1);
 
-}*/
+}
+
+TEST(Biggerf1test1, TestName) {
+	Figure* a, * b;
+	a = new Triangle(0, 0, 0, 7, 8, 0);
+	b = new Circle(0, 1, 7);
+
+	bool bob = biggerf(b,a,1);
+
+
+
+	
+
+	EXPECT_EQ(bob, 1);
+
+}
+TEST(Biggerf1test2, TestName) {
+	Figure* a, * b;
+	a = new Triangle(0, 0, 0, 7, 8, 0);
+	b = new Circle(0, 1, 7);
+
+	bool bob = biggerf(b, a, 2);
+
+
+	EXPECT_EQ(bob, 1);
+
+}
+TEST(Smallerf1test1, TestName) {
+	Figure* a, * b;
+	a = new Parallelogram(0, 0, 0, 5, 5, 5, 5, 0);
+	b = new Triangle(0, 0, 0, 7, 8, 0);
+
+	bool bob = smallerf(a,b, 1);
+
+
+
+	EXPECT_EQ(bob, 1);
+
+}
+TEST(Smallerf1test2, TestName) {
+	Figure* a, * b;
+	a = new Parallelogram(0, 0, 0, 5, 5, 5, 5, 0);
+	b = new Triangle(0, 0, 0, 7, 8, 0);
+
+	bool bob = smallerf(a,b, 2);
+
+
+	EXPECT_EQ(bob, 1);
+
+}
+TEST(Areequalf1test1, TestName) {
+	Figure* a, * b;
+	a = new Parallelogram(0, 0, 0, 5, 5, 5, 5, 0);
+	b = new Triangle(0, 0, 0, 5, 10, 0);
+
+	bool bob = arequalf(a, b, 1);
+
+
+
+	EXPECT_EQ(bob, 1);
+
+}
+TEST(Areequalf1test2, TestName) {
+	Figure* a, * b;
+	a = new Parallelogram(0, 0, 0, 5, 5, 5, 5, 0);
+	b = new Parallelogram(0, 0, 0, 8, 2, 8, 2, 0);
+
+	bool bob = arequalf(a, b, 2);
+
+
+	EXPECT_EQ(bob, 1);
+
+}
 TEST(Quicksorttest1, TestName) {
 
 	struct Node<int>* head = NULL;
@@ -397,6 +475,50 @@ TEST(Quicksorttest2, TestName) {
 	while (head != NULL && ans != NULL) {
 
 		if (arequalf(head->data, ans->data, 1) == 0 || (arequalf(head->data, ans->data, 2) == 0)) bob = false;
+
+		head = head->next;
+		ans = ans->next;
+	}
+
+	EXPECT_EQ(bob, 1);
+
+}
+
+TEST(Quicksorttest3, TestName) {
+
+	struct Nodev<int>* head = NULL;
+
+	vector<int> a, b, c, d;
+
+	a.push_back(1);
+	b.push_back(4);
+	c.push_back(3);
+	d.push_back(2);
+
+	Npush_backv(&head, a);
+	Npush_backv(&head, b);
+	Npush_backv(&head, c);
+	Npush_backv(&head, d);
+	quicksortelvec(head);
+
+
+	struct Nodev<int>* ans = NULL;
+
+	Npush_backv(&ans, a);
+	Npush_backv(&ans, d);
+	Npush_backv(&ans, c);
+	Npush_backv(&ans, b);
+
+
+	bool bob = true;
+
+	while (head != NULL && ans != NULL) {
+		vector<int> ch1 = head->data;
+		vector<int> ch2 = ans->data;
+		for (int i = 0; i < a.size(); i++)
+		{
+			if (ch1[i] != ch2[i]) bob = false;
+		}
 
 		head = head->next;
 		ans = ans->next;
@@ -476,7 +598,51 @@ TEST(Mergesorttest2,TestName) {
 	EXPECT_EQ(bob, 1);
 
 }
+TEST(Mergesorttest3, TestName) {
 
+	struct Nodev<double>* head = NULL;
+
+	vector<double> a, b, c, d;
+
+	a.push_back(1.1);
+	b.push_back(4.2);
+	c.push_back(3.5);
+	d.push_back(2.7);
+
+	Npush_backv(&head, a);
+	Npush_backv(&head, b);
+	Npush_backv(&head, c);
+	Npush_backv(&head, d);
+
+	mergesortelvec(&head);
+
+
+	struct Nodev<double>* ans = NULL;
+
+	Npush_backv(&ans, a);
+	Npush_backv(&ans, d);
+	Npush_backv(&ans, c);
+	Npush_backv(&ans, b);
+	struct Nodev<double>* ans2 = reversev(ans);
+
+
+	bool bob = true;
+
+	while (head != NULL && ans2 != NULL) {
+		vector<double> ch1 = head->data;
+		vector<double> ch2 = ans2->data;
+		for (int i = 0; i < a.size(); i++)
+		{
+			if (ch1[i] != ch2[i]) bob = false;
+		}
+
+		head = head->next;
+		ans2 = ans2->next;
+	}
+
+	EXPECT_EQ(bob, 1);
+
+}
 TEST(Insertionsorttest1, TestName) {
 
 	struct Node<double>* head = NULL;
@@ -543,6 +709,51 @@ TEST(Insertionsorttest2, TestName) {
 		if (arequalf(rev->data, ans->data, 1) == 0 || (arequalf(rev->data, ans->data, 2) == 0)) bob = false;
 		rev = rev->next;
 		ans = ans->next;
+	}
+
+	EXPECT_EQ(bob, 1);
+
+}
+TEST(Insertionsorttest3, TestName) {
+
+	struct Nodev<double>* head = NULL;
+
+	vector<double> a, b, c, d;
+
+	a.push_back(1.1);
+	b.push_back(4.2);
+	c.push_back(3.5);
+	d.push_back(2.7);
+
+	Npush_backv(&head, a);
+	Npush_backv(&head, b);
+	Npush_backv(&head, c);
+	Npush_backv(&head, d);
+
+	insertionsortelvec(&head);
+
+
+	struct Nodev<double>* ans = NULL;
+
+	Npush_backv(&ans, a);
+	Npush_backv(&ans, d);
+	Npush_backv(&ans, c);
+	Npush_backv(&ans, b);
+	struct Nodev<double>* ans2 = reversev(ans);
+
+
+	bool bob = true;
+
+	while (head != NULL && ans2 != NULL) {
+		vector<double> ch1 = head->data;
+		vector<double> ch2 = ans2->data;
+		for (int i = 0; i < a.size(); i++)
+		{
+			if (ch1[i] != ch2[i]) bob = false;
+		}
+
+		head = head->next;
+		ans2 = ans2->next;
 	}
 
 	EXPECT_EQ(bob, 1);
